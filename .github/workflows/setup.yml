@@ -32,7 +32,7 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    
+    ###
     # Deploys Azure resources 
     - name: Deploy Azure resources
       uses: azure/CLI@v1
